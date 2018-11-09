@@ -137,7 +137,7 @@
                                         $image_path = base_url().'upload/image/';
                                         foreach((array)$json_data as $item)
                                         {
-                                            echo '<img src="'.$image_path.$item.'" alt="ThumbnailImage" width="100px" height="100px" style="margin:20px;">';
+                                            echo '<img src="'.$image_path.$item.'" alt="ThumbnailImage" width="200px" height="200px" style="margin:20px;">';
                                         }
                                     }
                                     ?>
@@ -159,7 +159,7 @@
                                     <?php
                                         foreach((array)$json_data as $item)
                                         {
-                                            echo '<video width="200px" height="150px" controls><source src="'.$video_path.$item.'"></video>';
+                                            echo '<video width="720px" height="480px" controls><source src="'.$video_path.$item.'"></video>';
                                         }
                                     ?>
                                 </div>

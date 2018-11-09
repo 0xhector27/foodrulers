@@ -28,6 +28,7 @@ class Auth extends CI_Controller {
             $this->load->view('admin/login');
 
         } elseif(sha1($request['password']) != $admin_info['password']){
+            
             $this->session->set_flashdata('error_msg',$this->lang->line('wrong_pwd'));
             $this->load->view('admin/login');
 

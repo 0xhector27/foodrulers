@@ -111,7 +111,7 @@
 									<label>
 										<?=$this->lang->line('description')?>
 									</label>
-									<textarea class="form-control m-input" placeholder="Enter Short Description" name="description" row="3"></textarea>
+									<textarea class="form-control m-input" placeholder="Enter Short Description" name="description" row="3" required></textarea>
 								</div>
 							</div>
 							<div class="form-group">

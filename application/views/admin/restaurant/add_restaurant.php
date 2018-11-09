@@ -65,15 +65,16 @@
                                 <input hidden name="id" value="<?=isset($restaurant_data) ? $restaurant_data['id'] : ''?>">
                                 <div class="form-group col-lg-6">
                                     <label>
-                                        <?=$this->lang->line('name')?> *:
+                                        <?=$this->lang->line('name')?> *
                                     </label>
                                     <input type="text" class="form-control m-input" name="rest_name" placeholder="Enter Restaurant Name" required value="<?=isset($restaurant_data) ? $restaurant_data['rest_name'] : ''?>">
                                 </div>
                                 <div class="form-group col-lg-6">
                                     <label>
-                                        <?=$this->lang->line('owner')?> *:
+                                        <?=$this->lang->line('owner')?> *
                                     </label>
                                     <select class="form-control m-input" name="owner_id" required>
+                                        <option value="">Select an owner</option>
                                         <?php foreach ($owners as $owner)
                                         {?>
                                             <option value="<?=$owner['id']?>" <?=isset($restaurant_data) && $restaurant_data['owner_id'] == $owner['id'] ? ' selected' : ''?>><?=$owner['f_name']?></option>
@@ -85,7 +86,7 @@
                             <div class="row">
                                 <div class="form-group col-lg-12">
                                     <label>
-                                        <?=$this->lang->line('description')?>
+                                        <?=$this->lang->line('description')?> *
                                     </label>
                                     <textarea class="form-control m-input" placeholder="Enter Short Description" name="description" row="3" required><?=isset($restaurant_data) ? $restaurant_data['description'] : ''?></textarea>
                                 </div>
@@ -93,7 +94,7 @@
                             <div class="row">
                                 <div class="form-group col-lg-6">
                                     <label>
-                                        <?=$this->lang->line('address')?>
+                                        <?=$this->lang->line('address')?> *
                                     </label>
                                     <input type="text" class="form-control m-input" name="address" placeholder="Enter Address" required value="<?=isset($restaurant_data) ? $restaurant_data['address'] : ''?>">
                                 </div>
@@ -101,21 +102,21 @@
                                     <label>
                                         <?=$this->lang->line('website_url')?>
                                     </label>
-                                    <input type="text" class="form-control m-input" name="website_url" placeholder="Enter Website Url" required value="<?=isset($restaurant_data) ? $restaurant_data['website_url'] : ''?>">
+                                    <input type="text" class="form-control m-input" name="website_url" placeholder="Enter Website Url" value="<?=isset($restaurant_data) ? $restaurant_data['website_url'] : ''?>">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col-lg-6">
                                     <label>
-                                        <?=$this->lang->line('phone_number')?>
+                                        <?=$this->lang->line('phone_number')?> *
                                     </label>
                                     <input type="text" class="form-control m-input" name="phone_number" placeholder="Enter Phone number" required value="<?=isset($restaurant_data) ? $restaurant_data['phone_number'] : ''?>">
                                 </div>
                                 <div class="form-group col-lg-6">
                                     <label>
-                                        <?=$this->lang->line('location')?>
+                                        <?=$this->lang->line('location')?> 
                                     </label>
-                                    <input type="text" class="form-control m-input" id="f_location" placeholder="Enter Location" required>
+                                    <input type="text" class="form-control m-input" id="f_location" placeholder="Enter Location">
                                     <input hidden id="f_longitude" name="longitude" value="<?=isset($restaurant_data) ? $restaurant_data['longitude'] : ''?>">
                                     <input hidden id="f_latitude" name="latitude" value="<?=isset($restaurant_data) ? $restaurant_data['latitude'] : ''?>">
                                 </div>

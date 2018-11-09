@@ -27,21 +27,6 @@ class Restaurant extends Base_Controller {
         $data['content_name'] = $this->lang->line('add_restaurant');
 	    $data['owners'] = $this->common_model->get_list('member');
 	    $this->load_admin_view('restaurant', 'add_restaurant', $title, $subtitle, $data);
-	    return;
-		$header_data['title'] = $this->lang->line('restaurant');
-		$header_data['subtitle'] = $this->lang->line('add_restaurant');
-		$header_data['username'] = $this->admin_data['fname'];
-
-		$menu_data['pmenu'] = 'restaurant';
-		$menu_data['submenu'] = '';
-
-		$content_data['content_name'] = $this->lang->line('add_restaurant');
-		$content_data['header_data'] = $header_data;
-
-		$this->load->view('includes/admin/header', $header_data);
-		$this->load->view('includes/admin/menu', $menu_data);
-		$this->load->view('admin/restaurant/add_restaurant', $content_data);
-		$this->load->view('includes/admin/footer', array('jslink' => 'add_restaurant'));
 	}
 
 	public function edit_restaurant($restaurant_id) {

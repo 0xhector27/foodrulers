@@ -217,7 +217,7 @@
 							</a>
 						</li>
 						<li class="m-menu__item <?php echo $submenu == 'blog' ? 'm-menu__item--active' : '' ?>">
-							<a href="<?=base_url()?>admin/request/blog" class="m-menu__link ">
+							<a href="#" class="m-menu__link ">
 								<i class="m-menu__link-bullet m-menu__link-bullet--dot">
 									<span></span>
 								</i>
@@ -227,7 +227,7 @@
 							</a>
 						</li>
 						<li class="m-menu__item <?php echo $submenu == 'wallet' ? 'm-menu__item--active' : '' ?>">
-							<a href="<?=base_url()?>admin/request/wallet" class="m-menu__link ">
+							<a href="#" class="m-menu__link ">
 								<i class="m-menu__link-bullet m-menu__link-bullet--dot">
 									<span></span>
 								</i>
@@ -237,7 +237,7 @@
 							</a>
 						</li>
 						<li class="m-menu__item <?php echo $submenu == 'restaurant' ? 'm-menu__item--active' : '' ?>">
-							<a href="<?=base_url()?>admin/request/restaurant" class="m-menu__link ">
+							<a href="#" class="m-menu__link ">
 								<i class="m-menu__link-bullet m-menu__link-bullet--dot">
 									<span></span>
 								</i>

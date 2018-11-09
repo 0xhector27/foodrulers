@@ -56,7 +56,7 @@ $(document).ready(function(){
                         swal({
                             title: resp.msg,
                             text: '',
-                            type: 'success'
+                            type: 'error'
                         }).then(function(){
                         });
                     }
