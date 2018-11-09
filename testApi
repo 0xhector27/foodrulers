@@ -1,0 +1,799 @@
+ Api Name : UserEngine.login (username,password)
+------------------------------------------------------------------------------
+{
+  "status_code": 0,
+  "status_message": "Successfull",
+  "result": {
+    "user": {
+      "id": 29896,
+      "first_name": "Shadman",
+      "last_name": "Sakib",
+      "age": 21,
+      "email": "sakib.buet@gmail.com",
+      "country_name": "RU",
+      "gender": "Male",
+      "user_name": "tiger1106",
+      "is_facebook_connected": false,
+      "total_friends": 741,
+      "total_media_uploads": 41,
+      "total_review_given": 52,
+      "total_like_achieved": 90
+    },
+    "access_token": "03202ec6-b496-4654-8596-37d72e81960c"
+  }
+}
+
+
+                Api Name : UserEngine.TouchLogin sessionId
+------------------------------------------------------------------------------
+{
+  "status_code": 0,
+  "status_message": "Successfull",
+  "result": {
+    "id": 87042,
+    "first_name": "Shadman",
+    "last_name": "Sakib",
+    "age": 21,
+    "email": "sakib.buet@gmail.com",
+    "country_name": "RU",
+    "gender": "Male",
+    "user_name": "sakib",
+    "is_facebook_connected": false,
+    "total_friends": 151,
+    "total_media_uploads": 12,
+    "total_review_given": 66,
+    "total_like_achieved": 87
+  }
+}
+
+
+                Api Name : MissionEngine.GetFoodChallenges
+------------------------------------------------------------------------------
+{
+  "status_code": 0,
+  "status_message": "Successfull",
+  "result": [
+    {
+      "id": 0,
+      "name": "FoodChallenge_0",
+      "food": {
+        "id": 0,
+        "name": "Name",
+        "restaurant_id": 2,
+        "restaurant_name": "Sample Restaurant",
+        "reviews": [
+          {
+            "id": 0,
+            "rating": 3,
+            "user": {
+              "id": 81478,
+              "first_name": "User_1",
+              "last_name": "LastName",
+              "image": "https://png.pngtree.com/element_pic/16/12/31/dd29dc498fa508553de19dfbea876edd.jpg",
+              "age": 21,
+              "address": "Address_1",
+              "is_facebook_connected": false,
+              "total_friends": 134,
+              "total_media_uploads": 29,
+              "total_review_given": 92,
+              "total_like_achieved": 16
+            },
+            "food_id": 0,
+            "food_name": "Food Name",
+            "trip_id": 0,
+            "message": "This is a long message an objection to something as not being true, genuine, correct, or proper or to a person (as a juror) as not being correct, qualified, or approved. 2 : a call or dare for someone to compete in a contest or sport. 3 : a difficult task or problem. Memorizing the poem was a challenge ",
+            "files": [
+              "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7nvJUGbfZ45-A_FsfNIGBvpF5114thPLojWtb1qPOyL4nLIlB6A"
+            ],
+            "date_time": "2018-10-27T12:40:38.7571227+06:00"
+          },
+          {
+            "id": 0,
+            "rating": 5,
+            "user": {
+              "id": 81478,
+              "first_name": "User_20",
+              "last_name": "LastName",
+              "image": "https://png.pngtree.com/element_pic/16/12/31/dd29dc498fa508553de19dfbea876edd.jpg",
+              "age": 21,
+              "address": "Address_20",
+              "is_facebook_connected": false,
+              "total_friends": 134,
+              "total_media_uploads": 29,
+              "total_review_given": 92,
+              "total_like_achieved": 16
+            },
+            "food_id": 0,
+            "food_name": "foodName",
+            "trip_id": 0,
+            "message": "Very Good",
+            "date_time": "2018-10-26T12:40:38.7571227+06:00"
+          }
+        ],
+        "food_type": "Fast Food",
+        "rating": 3,
+        "thumbnail_image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg",
+        "food_tag": [
+          "Discounted",
+          "Popular",
+          "Featured"
+        ],
+        "images": [
+          "https://uproxx.files.wordpress.com/2017/05/food-fight-feat.jpg",
+          "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+          "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+          "https://uproxx.files.wordpress.com/2017/05/food-fight-feat.jpg"
+        ],
+        "price": "1.24",
+        "price_unit": "$",
+        "food_description": "This is a sample of food description"
+      },
+      "image": "https://media.istockphoto.com/photos/tapas-food-picture-id603267744?k=6&m=603267744&s=612x612&w=0&h=-gkuUeHYUaBvFN1RLCI4gMWih1qJgsKi2jhUHoQKmWs=",
+      "created_on": "2018-10-28T12:40:38.6624295+06:00",
+      "description": "an objection to something as not being true, genuine, correct, or proper or to a person (as a juror) as not being correct, qualified, or approved. 2 : a call or dare for someone to compete in a contest or sport. 3 : a difficult task or problem. Memorizing the poem was a challenge ",
+      "wallet": {
+        "unit": "Coin",
+        "amount": 25000.0,
+        "name": "E-Currency",
+        "image": "http://pngimg.com/uploads/coin/coin_PNG36874.pngg"
+      }
+    },
+    {
+      "id": 0,
+      "name": "FoodChallenge_0",
+      "food": {
+        "id": 0,
+        "name": "Name",
+        "restaurant_id": 2,
+        "restaurant_name": "Sample Restaurant",
+        "reviews": [
+          {
+            "id": 0,
+            "rating": 3,
+            "user": {
+              "id": 81478,
+              "first_name": "User_1",
+              "last_name": "LastName",
+              "image": "https://png.pngtree.com/element_pic/16/12/31/dd29dc498fa508553de19dfbea876edd.jpg",
+              "age": 21,
+              "address": "Address_1",
+              "is_facebook_connected": false,
+              "total_friends": 134,
+              "total_media_uploads": 29,
+              "total_review_given": 92,
+              "total_like_achieved": 16
+            },
+            "food_id": 0,
+            "food_name": "Food Name",
+            "trip_id": 0,
+            "message": "This is a long message an objection to something as not being true, genuine, correct, or proper or to a person (as a juror) as not being correct, qualified, or approved. 2 : a call or dare for someone to compete in a contest or sport. 3 : a difficult task or problem. Memorizing the poem was a challenge ",
+            "files": [
+              "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7nvJUGbfZ45-A_FsfNIGBvpF5114thPLojWtb1qPOyL4nLIlB6A"
+            ],
+            "date_time": "2018-10-27T12:40:38.7571227+06:00"
+          },
+          {
+            "id": 0,
+            "rating": 5,
+            "user": {
+              "id": 81478,
+              "first_name": "User_20",
+              "last_name": "LastName",
+              "image": "https://png.pngtree.com/element_pic/16/12/31/dd29dc498fa508553de19dfbea876edd.jpg",
+              "age": 21,
+              "address": "Address_20",
+              "is_facebook_connected": false,
+              "total_friends": 134,
+              "total_media_uploads": 29,
+              "total_review_given": 92,
+              "total_like_achieved": 16
+            },
+            "food_id": 0,
+            "food_name": "foodName",
+            "trip_id": 0,
+            "message": "Very Good",
+            "date_time": "2018-10-26T12:40:38.7571227+06:00"
+          }
+        ],
+        "food_type": "Fast Food",
+        "rating": 3,
+        "thumbnail_image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg",
+        "food_tag": [
+          "Discounted",
+          "Popular",
+          "Featured"
+        ],
+        "images": [
+          "https://uproxx.files.wordpress.com/2017/05/food-fight-feat.jpg",
+          "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+          "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+          "https://uproxx.files.wordpress.com/2017/05/food-fight-feat.jpg"
+        ],
+        "price": "1.24",
+        "price_unit": "$",
+        "food_description": "This is a sample of food description"
+      },
+      "image": "https://media.istockphoto.com/photos/tapas-food-picture-id603267744?k=6&m=603267744&s=612x612&w=0&h=-gkuUeHYUaBvFN1RLCI4gMWih1qJgsKi2jhUHoQKmWs=",
+      "created_on": "2018-10-28T12:40:38.6624295+06:00",
+      "description": "an objection to something as not being true, genuine, correct, or proper or to a person (as a juror) as not being correct, qualified, or approved. 2 : a call or dare for someone to compete in a contest or sport. 3 : a difficult task or problem. Memorizing the poem was a challenge ",
+      "wallet": {
+        "unit": "Coin",
+        "amount": 25000.0,
+        "name": "E-Currency",
+        "image": "http://pngimg.com/uploads/coin/coin_PNG36874.pngg"
+      }
+    }
+  ]
+}
+
+
+                Api Name : MissionEngine.GetFoodMission
+------------------------------------------------------------------------------
+{
+  "status_code": 0,
+  "status_message": "Successfull",
+  "result": {
+    "id": 1,
+    "name": "Summer Mission",
+    "food_trips": [
+      {
+        "id": 2,
+        "name": "Burger Trip",
+        "created_on": "0001-01-01T00:00:00",
+        "description": "Special Trip",
+        "reward_point": 100,
+        "is_completed": false,
+        "image": "http://www.fnstatic.co.uk/images/content/article/have-your-say-on-food-network-and-join-the-living-room.jpeg",
+        "food": {
+          "id": 0,
+          "name": "Trip1Food",
+          "restaurant_id": 2,
+          "restaurant_name": "Sample Restaurant",
+          "reviews": [
+            {
+              "id": 0,
+              "rating": 3,
+              "user": {
+                "id": 47675,
+                "first_name": "User_1",
+                "last_name": "LastName",
+                "image": "https://png.pngtree.com/element_pic/16/12/31/dd29dc498fa508553de19dfbea876edd.jpg",
+                "age": 21,
+                "address": "Address_1",
+                "is_facebook_connected": false,
+                "total_friends": 503,
+                "total_media_uploads": 79,
+                "total_review_given": 3,
+                "total_like_achieved": 76
+              },
+              "food_id": 0,
+              "food_name": "Food Name",
+              "trip_id": 0,
+              "message": "This is a long message an objection to something as not being true, genuine, correct, or proper or to a person (as a juror) as not being correct, qualified, or approved. 2 : a call or dare for someone to compete in a contest or sport. 3 : a difficult task or problem. Memorizing the poem was a challenge ",
+              "files": [
+                "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7nvJUGbfZ45-A_FsfNIGBvpF5114thPLojWtb1qPOyL4nLIlB6A"
+              ],
+              "date_time": "2018-10-27T12:40:38.8998622+06:00"
+            },
+            {
+              "id": 0,
+              "rating": 5,
+              "user": {
+                "id": 47675,
+                "first_name": "User_20",
+                "last_name": "LastName",
+                "image": "https://png.pngtree.com/element_pic/16/12/31/dd29dc498fa508553de19dfbea876edd.jpg",
+                "age": 21,
+                "address": "Address_20",
+                "is_facebook_connected": false,
+                "total_friends": 503,
+                "total_media_uploads": 79,
+                "total_review_given": 3,
+                "total_like_achieved": 76
+              },
+              "food_id": 0,
+              "food_name": "foodName",
+              "trip_id": 0,
+              "message": "Very Good",
+              "date_time": "2018-10-26T12:40:38.8998622+06:00"
+            }
+          ],
+          "food_type": "Fast Food",
+          "rating": 3,
+          "thumbnail_image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg",
+          "food_tag": [
+            "Discounted",
+            "Popular",
+            "Featured"
+          ],
+          "images": [
+            "https://uproxx.files.wordpress.com/2017/05/food-fight-feat.jpg",
+            "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+            "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+            "https://uproxx.files.wordpress.com/2017/05/food-fight-feat.jpg"
+          ],
+          "price": "1.24",
+          "price_unit": "$",
+          "food_description": "This is a sample of food description"
+        },
+        "address": "Sample Address\nSample City",
+        "longitude": 90.4352921,
+        "latitude": 23.8341786
+      },
+      {
+        "id": 3,
+        "name": "Burger Trip",
+        "created_on": "0001-01-01T00:00:00",
+        "description": "Special Trip",
+        "reward_point": 100,
+        "is_completed": true,
+        "image": "https://media-cdn.tripadvisor.com/media/photo-s/14/28/f7/2f/food-image.jpg",
+        "food": {
+          "id": 0,
+          "name": "Trip1Food",
+          "restaurant_id": 2,
+          "restaurant_name": "Sample Restaurant",
+          "reviews": [
+            {
+              "id": 0,
+              "rating": 3,
+              "user": {
+                "id": 22593,
+                "first_name": "User_1",
+                "last_name": "LastName",
+                "image": "https://png.pngtree.com/element_pic/16/12/31/dd29dc498fa508553de19dfbea876edd.jpg",
+                "age": 21,
+                "address": "Address_1",
+                "is_facebook_connected": false,
+                "total_friends": 390,
+                "total_media_uploads": 36,
+                "total_review_given": 67,
+                "total_like_achieved": 95
+              },
+              "food_id": 0,
+              "food_name": "Food Name",
+              "trip_id": 0,
+              "message": "This is a long message an objection to something as not being true, genuine, correct, or proper or to a person (as a juror) as not being correct, qualified, or approved. 2 : a call or dare for someone to compete in a contest or sport. 3 : a difficult task or problem. Memorizing the poem was a challenge ",
+              "files": [
+                "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7nvJUGbfZ45-A_FsfNIGBvpF5114thPLojWtb1qPOyL4nLIlB6A"
+              ],
+              "date_time": "2018-10-27T12:40:38.9758285+06:00"
+            },
+            {
+              "id": 0,
+              "rating": 5,
+              "user": {
+                "id": 22593,
+                "first_name": "User_20",
+                "last_name": "LastName",
+                "image": "https://png.pngtree.com/element_pic/16/12/31/dd29dc498fa508553de19dfbea876edd.jpg",
+                "age": 21,
+                "address": "Address_20",
+                "is_facebook_connected": false,
+                "total_friends": 390,
+                "total_media_uploads": 36,
+                "total_review_given": 67,
+                "total_like_achieved": 95
+              },
+              "food_id": 0,
+              "food_name": "foodName",
+              "trip_id": 0,
+              "message": "Very Good",
+              "date_time": "2018-10-26T12:40:38.9758285+06:00"
+            }
+          ],
+          "food_type": "Fast Food",
+          "rating": 3,
+          "thumbnail_image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg",
+          "food_tag": [
+            "Discounted",
+            "Popular",
+            "Featured"
+          ],
+          "images": [
+            "https://uproxx.files.wordpress.com/2017/05/food-fight-feat.jpg",
+            "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+            "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+            "https://uproxx.files.wordpress.com/2017/05/food-fight-feat.jpg"
+          ],
+          "price": "1.24",
+          "price_unit": "$",
+          "food_description": "This is a sample of food description"
+        },
+        "longitude": 90.4321921,
+        "latitude": 23.8212786
+      }
+    ],
+    "description": "The mission is to complete the goal in next 30 days",
+    "image": "http://wallarthd.com/wp-content/uploads/2015/05/coffee-food-image.jpg",
+    "reward_point": 120
+  }
+}
+
+
+                Api Name : MissionEngine.GetFoodMissions
+------------------------------------------------------------------------------
+{
+  "status_code": 0,
+  "status_message": "Successfull",
+  "result": [
+    {
+      "id": 1,
+      "name": "Summer Mission",
+      "food_trips": [],
+      "description": "The mission is to complete the goal in next 30 days",
+      "image": "http://wallarthd.com/wp-content/uploads/2015/05/coffee-food-image.jpg",
+      "reward_point": 120
+    },
+    {
+      "id": 2,
+      "name": "Summer Mission",
+      "food_trips": [],
+      "description": "The mission is to complete the goal in next 30 days",
+      "image": "http://wallarthd.com/wp-content/uploads/2015/05/coffee-food-image.jpg",
+      "reward_point": 120
+    },
+    {
+      "id": 1,
+      "name": "Summer Mission",
+      "food_trips": [],
+      "description": "The mission is to complete the goal in next 30 days",
+      "image": "http://wallarthd.com/wp-content/uploads/2015/05/coffee-food-image.jpg",
+      "reward_point": 120
+    },
+    {
+      "id": 2,
+      "name": "Summer Mission",
+      "food_trips": [],
+      "description": "The mission is to complete the goal in next 30 days",
+      "image": "http://wallarthd.com/wp-content/uploads/2015/05/coffee-food-image.jpg",
+      "reward_point": 120
+    },
+    {
+      "id": 1,
+      "name": "Summer Mission",
+      "food_trips": [],
+      "description": "The mission is to complete the goal in next 30 days",
+      "image": "http://wallarthd.com/wp-content/uploads/2015/05/coffee-food-image.jpg",
+      "reward_point": 120
+    },
+    {
+      "id": 2,
+      "name": "Summer Mission",
+      "food_trips": [],
+      "description": "The mission is to complete the goal in next 30 days",
+      "image": "http://wallarthd.com/wp-content/uploads/2015/05/coffee-food-image.jpg",
+      "reward_point": 120
+    },
+    {
+      "id": 1,
+      "name": "Summer Mission",
+      "food_trips": [],
+      "description": "The mission is to complete the goal in next 30 days",
+      "image": "http://wallarthd.com/wp-content/uploads/2015/05/coffee-food-image.jpg",
+      "reward_point": 120
+    },
+    {
+      "id": 2,
+      "name": "Summer Mission",
+      "food_trips": [],
+      "description": "The mission is to complete the goal in next 30 days",
+      "image": "http://wallarthd.com/wp-content/uploads/2015/05/coffee-food-image.jpg",
+      "reward_point": 120
+    }
+  ]
+}
+
+
+                Api Name : NewsEngine.GetRecentNews
+------------------------------------------------------------------------------
+{
+  "status_code": 0,
+  "status_message": "Successfull",
+  "result": [
+    {
+      "id": 0,
+      "name": "Explore Today",
+      "header": "New Deal1",
+      "published": "2018-10-28T00:00:00+06:00",
+      "background_image": "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+      "notification_image": "https://banner2.kisspng.com/20180404/zfe/kisspng-fast-food-drink-junk-food-eating-food-icon-5ac4ab22757b35.4212074315228383064812.jpg",
+      "news_type": 0,
+      "news_type_id": 0
+    },
+    {
+      "id": 0,
+      "name": "Explore Today",
+      "header": "New Deal2",
+      "published": "2018-10-28T00:00:00+06:00",
+      "background_image": "https://uproxx.files.wordpress.com/2017/05/food-fight-feat.jpg",
+      "notification_image": "https://banner2.kisspng.com/20180319/zjq/kisspng-computer-icons-restaurant-food-dinner-restaurant-icon-png-plate-5ab074a9a70fe9.4577029815215136416843.jpg",
+      "news_type": 0,
+      "news_type_id": 0
+    }
+  ]
+}
+
+
+                Api Name : BlogEngine.GetBlogPosts
+------------------------------------------------------------------------------
+{
+  "status_code": 0,
+  "status_message": "Successfull",
+  "result": [
+    {
+      "id": 0,
+      "name": "Explore Today",
+      "created_at": "2018-10-28T00:00:00+06:00",
+      "image": "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+      "url": "http://www.google.com",
+      "description": "This offer contains a group buy.\nHurry to abail"
+    },
+    {
+      "id": 0,
+      "name": "Explore Today",
+      "created_at": "0001-01-01T00:00:00",
+      "image": "https://banner2.kisspng.com/20180319/zjq/kisspng-computer-icons-restaurant-food-dinner-restaurant-icon-png-plate-5ab074a9a70fe9.4577029815215136416843.jpg",
+      "url": "ms.com",
+      "description": "Sample deal description"
+    }
+  ]
+}
+
+
+                Api Name : RestaurantEngine.GetRestaurant
+------------------------------------------------------------------------------
+{
+  "status_code": 0,
+  "status_message": "Successfull",
+  "result": {
+    "name": "Sample food",
+    "address": "Sample Address",
+    "owner": "OwnerName",
+    "foods": [
+      {
+        "id": 0,
+        "name": "Burger",
+        "restaurant_id": 2,
+        "restaurant_name": "Sample Restaurant",
+        "reviews": [
+          {
+            "id": 0,
+            "rating": 3,
+            "user": {
+              "id": 13212,
+              "first_name": "User_1",
+              "last_name": "LastName",
+              "image": "https://png.pngtree.com/element_pic/16/12/31/dd29dc498fa508553de19dfbea876edd.jpg",
+              "age": 21,
+              "address": "Address_1",
+              "is_facebook_connected": false,
+              "total_friends": 963,
+              "total_media_uploads": 55,
+              "total_review_given": 31,
+              "total_like_achieved": 21
+            },
+            "food_id": 0,
+            "food_name": "Food Name",
+            "trip_id": 0,
+            "message": "This is a long message an objection to something as not being true, genuine, correct, or proper or to a person (as a juror) as not being correct, qualified, or approved. 2 : a call or dare for someone to compete in a contest or sport. 3 : a difficult task or problem. Memorizing the poem was a challenge ",
+            "files": [
+              "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7nvJUGbfZ45-A_FsfNIGBvpF5114thPLojWtb1qPOyL4nLIlB6A"
+            ],
+            "date_time": "2018-10-27T12:40:39.6645978+06:00"
+          },
+          {
+            "id": 0,
+            "rating": 5,
+            "user": {
+              "id": 13212,
+              "first_name": "User_20",
+              "last_name": "LastName",
+              "image": "https://png.pngtree.com/element_pic/16/12/31/dd29dc498fa508553de19dfbea876edd.jpg",
+              "age": 21,
+              "address": "Address_20",
+              "is_facebook_connected": false,
+              "total_friends": 963,
+              "total_media_uploads": 55,
+              "total_review_given": 31,
+              "total_like_achieved": 21
+            },
+            "food_id": 0,
+            "food_name": "foodName",
+            "trip_id": 0,
+            "message": "Very Good",
+            "date_time": "2018-10-26T12:40:39.6645978+06:00"
+          }
+        ],
+        "food_type": "Fast Food",
+        "rating": 3,
+        "thumbnail_image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg",
+        "food_tag": [
+          "Discounted",
+          "Popular",
+          "Featured"
+        ],
+        "images": [
+          "https://uproxx.files.wordpress.com/2017/05/food-fight-feat.jpg",
+          "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+          "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+          "https://uproxx.files.wordpress.com/2017/05/food-fight-feat.jpg"
+        ],
+        "price": "1.24",
+        "price_unit": "$",
+        "food_description": "This is a sample of food description"
+      },
+      {
+        "id": 0,
+        "name": "Rice",
+        "restaurant_id": 2,
+        "restaurant_name": "Sample Restaurant",
+        "reviews": [
+          {
+            "id": 0,
+            "rating": 3,
+            "user": {
+              "id": 88129,
+              "first_name": "User_1",
+              "last_name": "LastName",
+              "image": "https://png.pngtree.com/element_pic/16/12/31/dd29dc498fa508553de19dfbea876edd.jpg",
+              "age": 21,
+              "address": "Address_1",
+              "is_facebook_connected": false,
+              "total_friends": 851,
+              "total_media_uploads": 11,
+              "total_review_given": 95,
+              "total_like_achieved": 40
+            },
+            "food_id": 0,
+            "food_name": "Food Name",
+            "trip_id": 0,
+            "message": "This is a long message an objection to something as not being true, genuine, correct, or proper or to a person (as a juror) as not being correct, qualified, or approved. 2 : a call or dare for someone to compete in a contest or sport. 3 : a difficult task or problem. Memorizing the poem was a challenge ",
+            "files": [
+              "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7nvJUGbfZ45-A_FsfNIGBvpF5114thPLojWtb1qPOyL4nLIlB6A"
+            ],
+            "date_time": "2018-10-27T12:40:39.7412659+06:00"
+          },
+          {
+            "id": 0,
+            "rating": 5,
+            "user": {
+              "id": 88129,
+              "first_name": "User_20",
+              "last_name": "LastName",
+              "image": "https://png.pngtree.com/element_pic/16/12/31/dd29dc498fa508553de19dfbea876edd.jpg",
+              "age": 21,
+              "address": "Address_20",
+              "is_facebook_connected": false,
+              "total_friends": 851,
+              "total_media_uploads": 11,
+              "total_review_given": 95,
+              "total_like_achieved": 40
+            },
+            "food_id": 0,
+            "food_name": "foodName",
+            "trip_id": 0,
+            "message": "Very Good",
+            "date_time": "2018-10-26T12:40:39.7412659+06:00"
+          }
+        ],
+        "food_type": "Fast Food",
+        "rating": 3,
+        "thumbnail_image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg",
+        "food_tag": [
+          "Discounted",
+          "Popular",
+          "Featured"
+        ],
+        "images": [
+          "https://uproxx.files.wordpress.com/2017/05/food-fight-feat.jpg",
+          "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+          "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+          "https://uproxx.files.wordpress.com/2017/05/food-fight-feat.jpg"
+        ],
+        "price": "1.24",
+        "price_unit": "$",
+        "food_description": "This is a sample of food description"
+      },
+      {
+        "id": 0,
+        "name": "Curry",
+        "restaurant_id": 2,
+        "restaurant_name": "Sample Restaurant",
+        "reviews": [
+          {
+            "id": 0,
+            "rating": 3,
+            "user": {
+              "id": 63047,
+              "first_name": "User_1",
+              "last_name": "LastName",
+              "image": "https://png.pngtree.com/element_pic/16/12/31/dd29dc498fa508553de19dfbea876edd.jpg",
+              "age": 21,
+              "address": "Address_1",
+              "is_facebook_connected": false,
+              "total_friends": 739,
+              "total_media_uploads": 58,
+              "total_review_given": 60,
+              "total_like_achieved": 59
+            },
+            "food_id": 0,
+            "food_name": "Food Name",
+            "trip_id": 0,
+            "message": "This is a long message an objection to something as not being true, genuine, correct, or proper or to a person (as a juror) as not being correct, qualified, or approved. 2 : a call or dare for someone to compete in a contest or sport. 3 : a difficult task or problem. Memorizing the poem was a challenge ",
+            "files": [
+              "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7nvJUGbfZ45-A_FsfNIGBvpF5114thPLojWtb1qPOyL4nLIlB6A"
+            ],
+            "date_time": "2018-10-27T12:40:39.8182443+06:00"
+          },
+          {
+            "id": 0,
+            "rating": 5,
+            "user": {
+              "id": 63047,
+              "first_name": "User_20",
+              "last_name": "LastName",
+              "image": "https://png.pngtree.com/element_pic/16/12/31/dd29dc498fa508553de19dfbea876edd.jpg",
+              "age": 21,
+              "address": "Address_20",
+              "is_facebook_connected": false,
+              "total_friends": 739,
+              "total_media_uploads": 58,
+              "total_review_given": 60,
+              "total_like_achieved": 59
+            },
+            "food_id": 0,
+            "food_name": "foodName",
+            "trip_id": 0,
+            "message": "Very Good",
+            "date_time": "2018-10-26T12:40:39.8182443+06:00"
+          }
+        ],
+        "food_type": "Fast Food",
+        "rating": 3,
+        "thumbnail_image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg",
+        "food_tag": [
+          "Discounted",
+          "Popular",
+          "Featured"
+        ],
+        "images": [
+          "https://uproxx.files.wordpress.com/2017/05/food-fight-feat.jpg",
+          "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+          "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+          "https://uproxx.files.wordpress.com/2017/05/food-fight-feat.jpg"
+        ],
+        "price": "1.24",
+        "price_unit": "$",
+        "food_description": "This is a sample of food description"
+      }
+    ],
+    "images": [
+      "https://uproxx.files.wordpress.com/2017/05/food-fight-feat.jpg",
+      "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+      "https://i.kinja-img.com/gawker-media/image/upload/s--yQNssSv---/c_scale,f_auto,fl_progressive,q_80,w_800/hrp50xxvosnilpawgsjr.jpg",
+      "https://uproxx.files.wordpress.com/2017/05/food-fight-feat.jpgg"
+    ],
+    "average_rating": 4,
+    "description": "This is a sample description",
+    "longitude": 90.4321921,
+    "latitude": 23.8212786,
+    "thumbnail_image": "https://uproxx.files.wordpress.com/2017/05/food-fight-feat.jpg"
+  }
+}
+
+
+                Api Name : worker.FoodEngine_Error
+------------------------------------------------------------------------------
+{
+  "status_code": 1,
+  "status_message": "Cant Implement this api",
+  "result": "Cant Implement this api"
+}
