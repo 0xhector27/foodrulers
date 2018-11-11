@@ -34,8 +34,8 @@ CREATE TABLE `admin` (
   `last_login` datetime NOT NULL,
   `country_code` varchar(10) DEFAULT NULL,
   `is_delete` enum('0','1') NOT NULL DEFAULT '0',
-  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `created_at` datetime NOT NULL,
+  `updated_at` datetime NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
@@ -44,7 +44,7 @@ CREATE TABLE `admin` (
 -- ----------------------------
 INSERT INTO `admin` VALUES ('1', 'Steven', 'Milner', 'super', 'stevenmilner@email.com', '7288edd0fc3ffcbe93a0cf06e3568e28521687bc', '1', '', '', '194', '(342) 346-5768', '2018-11-09 16:38:20', '65', '0', '2018-11-09 22:38:20', '2018-11-09 16:38:05');
 INSERT INTO `admin` VALUES ('2', 'Jame', 'Rodrigo', 'admin1', 'jamesrodrigo@email.com', '601f1889667efaebb33b8c12572835da3f027f78', '2', '', '', '194', '', '2018-11-09 09:42:29', '65', '0', '2018-11-09 17:36:53', '2018-11-08 15:37:32');
-INSERT INTO `admin` VALUES ('5', 'test', 'admin', 'test', 'test@email.com', '601f1889667efaebb33b8c12572835da3f027f78', '2', '', '', '194', '(323) 432-4123', '0000-00-00 00:00:00', '65', '0', '2018-11-08 23:32:26', '2018-11-08 15:38:03');
+INSERT INTO `admin` VALUES ('5', 'test', 'admin', 'test', 'test@email.com', '601f1889667efaebb33b8c12572835da3f027f78', '2', '', '', '194', '(323) 432-4123', '2018-11-09 09:42:29', '65', '0', '2018-11-08 23:32:26', '2018-11-08 15:38:03');
 
 -- ----------------------------
 -- Table structure for admin_group
@@ -453,8 +453,8 @@ CREATE TABLE `food_mission` (
 -- ----------------------------
 INSERT INTO `food_mission` VALUES ('1', 'Summer Mission', 'The mission is to complete the goal in next 30 days', '[\"mission123.jpg\"]', '[\"sample.mp4\"]', '100', '1', '0', '2018-10-30 16:48:05', '2018-11-08 16:28:48', '2018-11-05 16:00:19', '2018-11-16 16:00:23', '50', null);
 INSERT INTO `food_mission` VALUES ('2', 'Mission 2', 'This is short description', '[\"4cad3574b4afe46112afb05af9888c94.jpg\",\"34d5613943dc73527a9ed711c80cd538.jpg\",\"5a49a1335febd14d0f573258d2639788.jpg\"]', '[]', '0', '0', '1', '2018-11-08 15:20:21', '2018-11-08 16:16:55', '2018-11-08 23:15:00', '2018-11-08 23:15:00', '10', null);
-INSERT INTO `food_mission` VALUES ('3', '', '', '[]', '[]', '0', '0', '1', '2018-11-09 10:09:13', '2018-11-09 10:09:21', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0', null);
-INSERT INTO `food_mission` VALUES ('4', '', '', '[]', '[]', '0', '0', '1', '2018-11-09 12:33:10', '2018-11-09 12:37:13', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0', null);
+INSERT INTO `food_mission` VALUES ('3', '', '', '[]', '[]', '0', '0', '1', '2018-11-09 10:09:13', '2018-11-09 10:09:21', '2018-11-08 16:28:48', '2018-11-08 16:28:48', '0', null);
+INSERT INTO `food_mission` VALUES ('4', '', '', '[]', '[]', '0', '0', '1', '2018-11-09 12:33:10', '2018-11-09 12:37:13', '2018-11-08 16:28:48', '2018-11-08 16:28:48', '0', null);
 INSERT INTO `food_mission` VALUES ('5', 'Sample1', 'Sample description', '[\"346b20159b8ef1def0c7e5c104ff41af.png\",\"4d6cd84169a38914073aa5d3d11cdc41.png\"]', '[\"1f6ade25348de7300a4a2b8d544e1876.mp4\"]', '100', '0', '0', '2018-11-09 17:20:36', '2018-11-09 17:20:36', '2018-11-14 23:30:00', '2018-11-28 13:30:00', '50', null);
 
 -- ----------------------------
